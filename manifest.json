@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" : "LIVE_SCHEDULE",
+    "description" : "Get The Schedule of cricket matches on your screen Everytime" ,
+    "version" : "1.0.0",
+    "icons" : {"128" : "icon_128.png"},
+    "browser_action" : {
+        "default_icon" : "icon.png",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["activeTab"]
+}
